@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ITSLiving</string>
+    <string name="placeholder">Pilih Daerah</string>
+    <string-array name="planets">
+        <item>Mulyosari</item>
+        <item>Keputih</item>
+        <item>Gebang Lor</item>
+        <item>Gebang Wetan</item>
+        <item>Keputih Tegal Timur</item>
+    </string-array>
+    <string name="title_activity_tempat_maps">Maps</string>
+</resources>

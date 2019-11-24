@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingReviewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageViewReview"
+            android:layout_width="40dp"
+            android:src="@drawable/print"
+            android:layout_height="60dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvNamaUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"/>
+            <androidx.cardview.widget.CardView
+                android:elevation="0dp"
+                app:cardCornerRadius="1dp"
+                app:cardBackgroundColor="#efefef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/tvKomentar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fegeg"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
